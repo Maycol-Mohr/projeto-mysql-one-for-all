@@ -45,7 +45,7 @@ DROP DATABASE IF EXISTS SpotifyClone;
       cancao_id INT PRIMARY KEY AUTO_INCREMENT,
       cancao_nome VARCHAR(50) NOT NULL,
       duracao_segundos INT NOT NULL,
-      ano_lancamento INT NOT NULL,
+      ano_lancamento YEAR NOT NULL,
       album_id INT NOT NULL,
       CONSTRAINT FK_id_album FOREIGN KEY(album_id) REFERENCES album(album_id)
   ) engine = InnoDB;
@@ -81,7 +81,7 @@ DROP DATABASE IF EXISTS SpotifyClone;
         (5, 'Samba em Paris', '2022-01-09 01:44:33'),
         (5, 'Under Pressure', '2020-08-06 15:23:43'),
         (6, 'O Medo de Amar é o Medo de Ser Livre', '2017-01-24 00:31:17'),
-		    (6, 'BREAK MY SOUL', '2017-10-12 12:35:20'),
+	    	(6, 'BREAK MY SOUL', '2017-10-12 12:35:20'),
         (7, 'Dont Stop Me Now', '2011-12-15 22:30:49'),
 		    (8, 'Dont Stop Me Now', '2012-03-17 14:56:41'),
         (9, 'The Bards Song', '2022-02-24 21:14:22'),
@@ -122,7 +122,7 @@ DROP DATABASE IF EXISTS SpotifyClone;
   VALUES('BREAK MY SOUL', 279, 2022, 1),
         ('VIRGOS GROOVE', 369, 2022, 1),
         ('ALIEN SUPERSTAR', 116, 2022, 1),
-    		('Dont Stop Me Now', 203, 1978, 2),
+		    ('Dont Stop Me Now', 203, 1978, 2),
         ('Under Pressure', 152, 1982, 3),
 		    ('Como Nossos Pais', 105, 1998, 4),
         ('O Medo de Amar é o Medo de Ser Livre', 207, 2001, 5),
