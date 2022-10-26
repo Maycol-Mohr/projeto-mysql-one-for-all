@@ -81,7 +81,7 @@ DROP DATABASE IF EXISTS SpotifyClone;
         (5, 'Samba em Paris', '2022-01-09 01:44:33'),
         (5, 'Under Pressure', '2020-08-06 15:23:43'),
         (6, 'O Medo de Amar é o Medo de Ser Livre', '2017-01-24 00:31:17'),
-	    	(6, 'BREAK MY SOUL', '2017-10-12 12:35:20'),
+		    (6, 'BREAK MY SOUL', '2017-10-12 12:35:20'),
         (7, 'Dont Stop Me Now', '2011-12-15 22:30:49'),
 		    (8, 'Dont Stop Me Now', '2012-03-17 14:56:41'),
         (9, 'The Bards Song', '2022-02-24 21:14:22'),
@@ -100,23 +100,23 @@ DROP DATABASE IF EXISTS SpotifyClone;
         (7, 6),
         (9, 3);
         
-  INSERT INTO SpotifyClone.artista(artista_id, artista_nome) 
-  VALUES(1, 'Beyonce'),
-        (2, 'Queen'),
-        (3, 'Elis Regina'),
-		    (4, 'Baco Exu do Blues'),
-        (5, 'Blind Guardian'),
-        (6, 'Nina Simone');
+  INSERT INTO SpotifyClone.artista(artista_nome) 
+  VALUES('Beyonce'),
+        ('Queen'),
+        ('Elis Regina'),
+		    ('Baco Exu do Blues'),
+        ('Blind Guardian'),
+        ('Nina Simone');
         
-  INSERT INTO SpotifyClone.album(album_id, album_nome) 
-  VALUES(1, 'Renaissance'),
-        (2, 'Jazz'),
-        (3, 'Hot Space'),
-		    (4, 'Falso Brilhante'),
-        (5, 'Vento de Maio'),
-        (6, 'QVVJFA?'),
-        (7, 'Somewhere Far Beyond'),
-		    (8, 'I Put A Spell On You');
+  INSERT INTO SpotifyClone.album(album_nome) 
+  VALUES('Renaissance'),
+        ('Jazz'),
+        ('Hot Space'),
+		    ('Falso Brilhante'),
+        ('Vento de Maio'),
+        ('QVVJFA?'),
+        ('Somewhere Far Beyond'),
+		    ('I Put A Spell On You');
         
   INSERT INTO SpotifyClone.cancao(cancao_nome, duracao_segundos, ano_lancamento, album_id) 
   VALUES('BREAK MY SOUL', 279, 2022, 1),
