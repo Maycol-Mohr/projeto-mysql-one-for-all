@@ -75,7 +75,7 @@ DROP DATABASE IF EXISTS SpotifyClone;
         ('Jorge Amado', 58, '2017-02-17', 4);
         
   INSERT INTO SpotifyClone.artista(artista_nome) 
-  VALUES('Beyonce'),
+  VALUES('Beyoncé'),
         ('Queen'),
         ('Elis Regina'),
 		    ('Baco Exu do Blues'),
