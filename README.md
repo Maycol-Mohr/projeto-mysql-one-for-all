@@ -1,4 +1,8 @@
-# :construction: README customizado em construção ! :construction:
+# Segundo Projeto mysql one for all.
+
+Segundo Projeto de banco de dados Mysql desenvolvido na escola Trybe sobre Normalização e Modelagem de Banco de Dados.
+
+Neste projeto constrímos desde zero um banco de dados com todas as informações necessárias para trabalhar nele.
 <!-- Olá, Tryber!
 Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
 
